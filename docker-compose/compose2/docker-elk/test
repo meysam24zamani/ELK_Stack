@@ -1,0 +1,52 @@
+  "schema": {
+    "fields": [
+      {
+        "name": "index",
+        "type": "integer"
+      },
+      {
+        "name": "CHROM",
+        "type": "string"
+      },
+      {
+        "name": "POS",
+        "type": "integer"
+      },
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "REF",
+        "type": "string"
+      },
+      {
+        "name": "ALT",
+        "type": "string"
+      },
+      {
+        "name": "QUAL",
+        "type": "string"
+      },
+      {
+        "name": "FILTER",
+        "type": "string"
+      },
+      {
+        "name": "INFO",
+        "type": "string"
+      },
+      {
+        "name": "FORMAT",
+        "type": "string"
+      },
+      {
+        "name": "0_Panel_TOY__Sample_0",
+        "type": "string"
+      }
+    ],
+    "primaryKey": [
+      "index"
+    ],
+    "pandas_version": "0.20.0"
+  },

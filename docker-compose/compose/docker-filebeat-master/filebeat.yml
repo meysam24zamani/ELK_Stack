@@ -1,0 +1,21 @@
+#prospectors:
+#   - paths:
+#     - /var/lib/docker/containers/*/*-json.log
+#     fields_under_root: true
+#     fields:
+#        tags: ['json']
+#  output:
+#     logstash:
+#      enabled: true
+#      logstash:
+#        hosts: ['logstash:5044']
+
+
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      #- /var/lib/docker/containers/*/*-json.log
+      - /home/mzamani/workspace-dir/elk/compose/test_app.log
+output.logstash:
+  hosts: ["logstash:5044"]

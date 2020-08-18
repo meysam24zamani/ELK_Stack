@@ -1,0 +1,1 @@
+docker build --pull -f Dockerfile -t logstash:latest .

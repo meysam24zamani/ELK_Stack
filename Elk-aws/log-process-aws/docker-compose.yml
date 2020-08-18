@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+
+  logstash:
+    build:
+      context: logstash/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
+      - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
+    ports:
+      - "5044:5044"
+      - "9600:9600"
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    networks:
+      - elk
+
+  filebeat:
+    build:
+      context: filebeat/
+    restart: unless-stopped
+    user: root
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock
+    ports:
+      - "5150:5150"
+    environment:
+      - LOGSTASH_HOST=logstash.localdomain
+      - LOGSTASH_PORT=5044
+      - SHIPPER_NAME=aWonderfulName
+    networks:
+      - elk
+
+networks:
+
+  elk:
+    driver: bridge

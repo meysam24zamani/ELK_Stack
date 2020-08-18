@@ -1,0 +1,17 @@
+#filebeat.inputs:
+#  - type: log
+#    enabled: true
+#    paths:
+#      - /home/mzamani/workspace-dir/elk/docker-elk/dceoy-output.json
+#output.logstash:
+#  hosts: ["logstash:5044"]
+
+filebeat:
+	prospectors:
+		- type: log
+      enabled: true
+      paths:
+			  - “/home/mzamani/workspace-dir/elk/docker-elk/test_app.log"
+		  document_type: application # this is just an identifier for logstash
+output.logstash:
+  hosts: ["logstash:5044"]

@@ -1,0 +1,15 @@
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html
+
+https://www.linode.com/docs/development/java/install-java-on-centos/
+
+https://docs.search-guard.com/latest/logstash#setting-up-tlsssl
+
+https://superuser.com/questions/1426477/logstash-6-5-to-elasticsearch-6-5-connection-using-ssl?rq=1
+
+https://discuss.elastic.co/t/logstash-ssl-configuration-problem/49404/6
+
+https://www.elastic.co/blog/logstash-jdbc-input-plugin
+
+
+Google search:
+cast the json result to an string in postgres level and parse the json string in logstash.

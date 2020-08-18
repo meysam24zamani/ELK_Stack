@@ -1,0 +1,7 @@
+For running filebeat, after entering to the Docker container we have to run this command 
+in order to send files conected to filbeat.yml to the destination that we dwfined for it.
+
+docker ps
+docker exec -it [container-id] bash
+
+./filebeat -e

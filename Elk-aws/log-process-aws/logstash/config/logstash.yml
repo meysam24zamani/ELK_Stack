@@ -1,0 +1,8 @@
+---
+## Default Logstash configuration from logstash-docker.
+## from https://github.com/elastic/logstash-docker/blob/master/build/logstash/config/logstash-oss.yml
+#
+http.host: "localhost"
+path.config: /usr/share/logstash/pipeline
+#cloud.id: "test1:ZXUtd2VzdC0xLmF3cy5mb3VuZC5pbyQ4ODhhZmNlNTkzNDQ0YzdlODdmYzIzODY4ZTQwY2E5NSQxMTk5MzgzN2RiNmM0NTRiOGY4ZjRmZGI3OTgzMDY5OA=="
+#cloud.auth: "elastic:ekiQM9uillM22Y76R3YfCpco"

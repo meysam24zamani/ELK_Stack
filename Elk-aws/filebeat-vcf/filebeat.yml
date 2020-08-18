@@ -1,0 +1,18 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  json.keys_under_root: true
+  json.add_error_key: true
+  json.message_key: log
+  paths:
+    - /usr/share/filebeat/dceoy-output.json		
+#output.logstash: 
+#   hosts: ["logstash:5044"]
+output.elasticsearch:
+  # Array of hosts to connect to.
+  hosts: ["https://eacfaaa6ddfc4de7bde9fa49bde616e6.eu-central-1.aws.cloud.es.io:9243"]
+
+  # Optional protocol and basic auth credentials.
+  #protocol: "https"
+  username: "genomcore"
+  password: "At2k#46g!n2Sdu5c@d"

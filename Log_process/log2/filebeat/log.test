@@ -1,0 +1,1137 @@
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:22.806Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:22.805 [INFO][73] ipsets.go 222: Asked to resync with the dataplane on next update. family=\"inet\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:22.815Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:22.814 [INFO][73] ipsets.go 295: Finished resync family=\"inet\" numInconsistenciesFound=0 resyncDuration=8.376462ms"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:23.505Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:23.504 [INFO][73] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:20.639Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:20.638 [INFO][66] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:20.639Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:20.638 [INFO][66] ipsets.go 222: Asked to resync with the dataplane on next update. family=\"inet\""
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:20.639Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:20.639 [INFO][66] ipsets.go 253: Resyncing ipsets with dataplane. family=\"inet\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:20.649Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:20.649 [INFO][66] ipsets.go 295: Finished resync family=\"inet\" numInconsistenciesFound=0 resyncDuration=9.86694ms"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:20.650Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:20.650 [INFO][66] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=11.265221"
+},
+{
+     "kubernetes" => {
+               "node" => {
+             "name" => "node2"
+         },
+             "labels" => {
+             "pod-template-hash" => "64c4b97b84",
+                           "app" => "api-healthcare-app"
+         },
+          "container" => {
+             "name" => "api-healthcare-app"
+         },
+          "namespace" => "healthcare",
+         "replicaset" => {
+             "name" => "api-healthcare-app-deploy-64c4b97b84"
+         },
+                "pod" => {
+             "name" => "api-healthcare-app-deploy-64c4b97b84-vjtk5",
+              "uid" => "9e4275b3-808b-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:24.355Z,
+         "stream" => "stdout",
+        "message" => "10.2.100.6 - - [30/May/2019:13:31:24 +0000] \"GET /api/docs/swagger.json HTTP/1.1\" 200 38425 \"-\" \"kube-probe/1.12\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:24.371Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:24.371 [INFO][66] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+                "pod" => {
+             "name" => "authserver-deploy-67f4688f7b-gfvt7",
+              "uid" => "166e7db7-70da-11e9-b55a-02000a026405"
+         },
+          "container" => {
+             "name" => "authserver-app"
+         },
+          "namespace" => "auth",
+             "labels" => {
+             "pod-template-hash" => "67f4688f7b",
+                           "app" => "authserver-app"
+         },
+         "replicaset" => {
+             "name" => "authserver-deploy-67f4688f7b"
+         },
+               "node" => {
+             "name" => "node4"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:21.917Z,
+         "stream" => "stdout",
+        "message" => "10.2.100.8 - - [30/May/2019:13:31:21 +0000] \"GET /api/db/isfine HTTP/1.1\" 200 4 \"-\" \"kube-probe/1.12\""
+},
+{
+     "kubernetes" => {
+               "node" => {
+             "name" => "node4"
+         },
+             "labels" => {
+             "pod-template-hash" => "67f4688f7b",
+                           "app" => "authserver-app"
+         },
+          "namespace" => "auth",
+          "container" => {
+             "name" => "authserver-app"
+         },
+         "replicaset" => {
+             "name" => "authserver-deploy-67f4688f7b"
+         },
+                "pod" => {
+             "name" => "authserver-deploy-67f4688f7b-gfvt7",
+              "uid" => "166e7db7-70da-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:21.667Z,
+         "stream" => "stdout",
+        "message" => "[2019-05-30 13:31:21 +0000] [34] [DEBUG] GET /api/db/isfine"
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "filebeat-j48t9",
+              "uid" => "f73196de-82b0-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node2"
+         },
+         "container" => {
+             "name" => "filebeat"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "5f4bc94f7b",
+                              "k8s-app" => "filebeat"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:19.335Z,
+         "stream" => "stderr",
+        "message" => "2019-05-30T13:31:19.333Z\tINFO\tkubernetes/watcher.go:242\tkubernetes: Watching API for resource events"
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "5f4bc94f7b",
+                              "k8s-app" => "filebeat"
+         },
+               "pod" => {
+             "name" => "filebeat-j48t9",
+              "uid" => "f73196de-82b0-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "filebeat"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node2"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:25.939Z,
+         "stream" => "stderr",
+        "message" => "2019-05-30T13:31:25.938Z\tINFO\t[monitoring]\tlog/log.go:144\tNon-zero metrics in the last 30s\t{\"monitoring\": {\"metrics\": {\"beat\":{\"cpu\":{\"system\":{\"ticks\":54180,\"time\":{\"ms\":50}},\"total\":{\"ticks\":137980,\"time\":{\"ms\":197},\"value\":137980},\"user\":{\"ticks\":83800,\"time\":{\"ms\":147}}},\"handles\":{\"limit\":{\"hard\":1048576,\"soft\":1048576},\"open\":17},\"info\":{\"ephemeral_id\":\"0b949e81-7144-40b7-9203-b85708b3a83c\",\"uptime\":{\"ms\":19860237}},\"memstats\":{\"gc_next\":5967584,\"memory_alloc\":4768600,\"memory_total\":11199576696}},\"filebeat\":{\"events\":{\"active\":1,\"added\":29,\"done\":28},\"harvester\":{\"open_files\":8,\"running\":8}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":28,\"batches\":8,\"total\":28},\"read\":{\"bytes\":48},\"write\":{\"bytes\":7841}},\"pipeline\":{\"clients\":2,\"events\":{\"active\":1,\"published\":29,\"total\":29},\"queue\":{\"acked\":28}}},\"registrar\":{\"states\":{\"current\":29,\"update\":28},\"writes\":{\"success\":8,\"total\":8}},\"system\":{\"load\":{\"1\":0.74,\"15\":1.23,\"5\":1.36,\"norm\":{\"1\":0.37,\"15\":0.615,\"5\":0.68}}}}}}"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:26.054Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:26.053 [INFO][66] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node2"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:26.702Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:26.702 [INFO][68] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:26.703Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:26.702 [INFO][68] table.go 717: Invalidating dataplane cache ipVersion=0x4 reason=\"refresh timer\" table=\"raw\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:26.703Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:26.703 [INFO][68] table.go 438: Loading current iptables state and checking it is correct. ipVersion=0x4 table=\"raw\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:26.711Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:26.711 [INFO][68] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=8.835687"
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node2"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:27.318Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:27.317 [INFO][68] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:29.868Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:29.866 [INFO][73] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "5f4bc94f7b",
+                              "k8s-app" => "filebeat"
+         },
+               "pod" => {
+             "name" => "filebeat-xbkg8",
+              "uid" => "f72d3f51-82b0-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "filebeat"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node3"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:24.548Z,
+         "stream" => "stderr",
+        "message" => "2019-05-30T13:31:24.547Z\tINFO\t[monitoring]\tlog/log.go:144\tNon-zero metrics in the last 30s\t{\"monitoring\": {\"metrics\": {\"beat\":{\"cpu\":{\"system\":{\"ticks\":57530,\"time\":{\"ms\":62}},\"total\":{\"ticks\":151160,\"time\":{\"ms\":199},\"value\":151160},\"user\":{\"ticks\":93630,\"time\":{\"ms\":137}}},\"handles\":{\"limit\":{\"hard\":1048576,\"soft\":1048576},\"open\":15},\"info\":{\"ephemeral_id\":\"3c3a13ed-31fa-4e03-a0ac-953b5a5743c4\",\"uptime\":{\"ms\":19860118}},\"memstats\":{\"gc_next\":8470880,\"memory_alloc\":4355552,\"memory_total\":11702094128}},\"filebeat\":{\"events\":{\"active\":7,\"added\":35,\"done\":28},\"harvester\":{\"open_files\":6,\"running\":6}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":28,\"batches\":9,\"total\":28},\"read\":{\"bytes\":54},\"write\":{\"bytes\":8678}},\"pipeline\":{\"clients\":2,\"events\":{\"active\":7,\"published\":35,\"total\":35},\"queue\":{\"acked\":28}}},\"registrar\":{\"states\":{\"current\":22,\"update\":28},\"writes\":{\"success\":9,\"total\":9}},\"system\":{\"load\":{\"1\":0.48,\"15\":0.66,\"5\":0.78,\"norm\":{\"1\":0.24,\"15\":0.33,\"5\":0.39}}}}}}"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:31.450Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:31.449 [INFO][68] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "5f4bc94f7b",
+                              "k8s-app" => "filebeat"
+         },
+         "container" => {
+             "name" => "filebeat"
+         },
+               "pod" => {
+             "name" => "filebeat-68kgj",
+              "uid" => "f7305c63-82b0-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:30.169Z,
+         "stream" => "stderr",
+        "message" => "2019-05-30T13:31:30.168Z\tINFO\t[monitoring]\tlog/log.go:144\tNon-zero metrics in the last 30s\t{\"monitoring\": {\"metrics\": {\"beat\":{\"cpu\":{\"system\":{\"ticks\":45110,\"time\":{\"ms\":78}},\"total\":{\"ticks\":115410,\"time\":{\"ms\":180},\"value\":115410},\"user\":{\"ticks\":70300,\"time\":{\"ms\":102}}},\"handles\":{\"limit\":{\"hard\":1048576,\"soft\":1048576},\"open\":14},\"info\":{\"ephemeral_id\":\"e287195a-9a73-46f8-8afc-3c78777ff940\",\"uptime\":{\"ms\":19860674}},\"memstats\":{\"gc_next\":8482176,\"memory_alloc\":5971208,\"memory_total\":9968582864}},\"filebeat\":{\"events\":{\"active\":-5,\"added\":31,\"done\":36},\"harvester\":{\"open_files\":5,\"running\":5}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":36,\"batches\":11,\"total\":36},\"read\":{\"bytes\":66},\"write\":{\"bytes\":9766}},\"pipeline\":{\"clients\":2,\"events\":{\"active\":0,\"published\":31,\"total\":31},\"queue\":{\"acked\":36}}},\"registrar\":{\"states\":{\"current\":27,\"update\":36},\"writes\":{\"success\":11,\"total\":11}},\"system\":{\"load\":{\"1\":0.47,\"15\":0.53,\"5\":0.58,\"norm\":{\"1\":0.235,\"15\":0.265,\"5\":0.29}}}}}}"
+},
+{
+     "kubernetes" => {
+               "node" => {
+             "name" => "node3"
+         },
+          "container" => {
+             "name" => "genomcareapi-app"
+         },
+          "namespace" => "genomcare",
+             "labels" => {
+             "pod-template-hash" => "54698569b5",
+                           "app" => "genomcareapi-app"
+         },
+         "replicaset" => {
+             "name" => "genomcareapi-deploy-54698569b5"
+         },
+                "pod" => {
+             "name" => "genomcareapi-deploy-54698569b5-pjhhs",
+              "uid" => "9eee8c46-808b-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:24.262Z,
+         "stream" => "stdout",
+        "message" => "[2019-05-30 13:31:24 +0000] [17] [DEBUG] GET /v1/"
+},
+{
+     "kubernetes" => {
+                "pod" => {
+             "name" => "genomcareapi-deploy-54698569b5-pjhhs",
+              "uid" => "9eee8c46-808b-11e9-b55a-02000a026405"
+         },
+          "container" => {
+             "name" => "genomcareapi-app"
+         },
+          "namespace" => "genomcare",
+             "labels" => {
+             "pod-template-hash" => "54698569b5",
+                           "app" => "genomcareapi-app"
+         },
+         "replicaset" => {
+             "name" => "genomcareapi-deploy-54698569b5"
+         },
+               "node" => {
+             "name" => "node3"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:24.274Z,
+         "stream" => "stdout",
+        "message" => "10.2.100.7 - - [30/May/2019:13:31:24 +0000] \"GET /v1/ HTTP/1.1\" 200 2 \"-\" \"kube-probe/1.12\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.505Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.504 [INFO][73] health.go 150: Overall health summary=&health.HealthReport{Live:true, Ready:true}"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.535Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.534 [INFO][73] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.535Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.535 [INFO][73] ipsets.go 222: Asked to resync with the dataplane on next update. family=\"inet\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.535Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.535 [INFO][73] ipsets.go 253: Resyncing ipsets with dataplane. family=\"inet\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.547Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.546 [INFO][73] ipsets.go 295: Finished resync family=\"inet\" numInconsistenciesFound=0 resyncDuration=11.0621ms"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node3"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-wbnb9",
+              "uid" => "f28d87ea-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.547Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.547 [INFO][73] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=12.493752"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.232Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.232 [INFO][68] ipsets.go 222: Asked to resync with the dataplane on next update. family=\"inet\""
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node2"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.241Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.241 [INFO][68] ipsets.go 295: Finished resync family=\"inet\" numInconsistenciesFound=0 resyncDuration=8.430198ms"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.232Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.231 [INFO][68] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node2"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.233Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.232 [INFO][68] ipsets.go 253: Resyncing ipsets with dataplane. family=\"inet\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node2"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-bj7dl",
+              "uid" => "f28c27db-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.242Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.241 [INFO][68] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=9.686631"
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:31.367Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:31.363 [INFO][66] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:31.367Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:31.363 [INFO][66] ipsets.go 222: Asked to resync with the dataplane on next update. family=\"inet\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:31.367Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:31.363 [INFO][66] ipsets.go 253: Resyncing ipsets with dataplane. family=\"inet\""
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node4"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:31.373Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:31.370 [INFO][66] ipsets.go 295: Finished resync family=\"inet\" numInconsistenciesFound=0 resyncDuration=6.370503ms"
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node4"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:31.374Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:31.370 [INFO][66] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=6.826861"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:32.145Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:32.144 [INFO][66] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:32.145Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:32.144 [INFO][66] route_table.go 189: Queueing a resync of routing table. ipVersion=0x4"
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:32.165Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:32.165 [INFO][66] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=20.463436"
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node4"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.723Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.722 [INFO][66] int_dataplane.go 733: Applying dataplane updates"
+},
+{
+     "kubernetes" => {
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.724Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.723 [INFO][66] table.go 717: Invalidating dataplane cache ipVersion=0x4 reason=\"refresh timer\" table=\"filter\""
+},
+{
+     "kubernetes" => {
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+         "namespace" => "kube-system",
+              "node" => {
+             "name" => "node4"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.724Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.723 [INFO][66] table.go 438: Loading current iptables state and checking it is correct. ipVersion=0x4 table=\"filter\""
+},
+{
+     "kubernetes" => {
+              "node" => {
+             "name" => "node4"
+         },
+         "container" => {
+             "name" => "calico-node"
+         },
+            "labels" => {
+              "pod-template-generation" => "1",
+             "controller-revision-hash" => "696bb7bdd6",
+                              "k8s-app" => "calico-node"
+         },
+         "namespace" => "kube-system",
+               "pod" => {
+             "name" => "calico-node-422cv",
+              "uid" => "f29b0b97-1d97-11e9-b55a-02000a026405"
+         }
+     },
+     "@timestamp" => 2019-05-30T13:31:33.740Z,
+         "stream" => "stdout",
+        "message" => "2019-05-30 13:31:33.740 [INFO][66] int_dataplane.go 747: Finished applying updates to dataplane. msecToApply=17.776811"
+ }

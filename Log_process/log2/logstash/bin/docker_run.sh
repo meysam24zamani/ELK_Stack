@@ -1,0 +1,1 @@
+docker run -it -d -p 5044:5044 logstash:latest bash
